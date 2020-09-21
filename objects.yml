@@ -1,0 +1,69 @@
+objects:
+  stairs:
+    sprite: [stair.png]
+    action: reload_game
+    min-count: 1
+    max-count: 1
+    sound: null
+  chest:
+    sprite: [chest.png]
+    action: add_gold
+    min-count: 0
+    max-count: 3
+    sound: null
+ally:
+  bless:
+    sprite: [NPC_1.png]
+    action: apply_blessing
+    min-count: 1
+    max-count: 6
+    sound: music/magic.wav
+  remove:
+    sprite: [NPC_2.png]
+    action: remove_effect
+    min-count: 1
+    max-count: 6
+    sound: music/magic.wav
+  heal:
+    sprite: [NPC_3.png]
+    action: restore_hp
+    min-count: 0
+    max-count: 3
+    sound: music/magic.wav
+enemies:
+  rat:
+    sprite: [rat.png]
+    strength: 2
+    endurance: 2
+    agility: 2
+    intelligence: 2
+    luck: 1
+    experience: 100
+    sound: music/rat.wav
+  knight:
+    sprite: [Enemy_1.png]
+    strength: 15
+    endurance: 15
+    agility: 12
+    intelligence: 15
+    luck: 10
+    experience: 300
+    sound: music/sword.wav
+  naga:
+    sprite: [Naga.png]
+    strength: 25
+    endurance: 25
+    agility: 30
+    intelligence: 25
+    luck: 10
+    experience: 500
+    sound: music/water.wav
+  dragon:
+    sprite: [dragon.png]
+    strength: 50
+    endurance: 50
+    agility: 10
+    intelligence: 50
+    luck: 5
+    experience: 1000
+    sound: music/dragon.wav

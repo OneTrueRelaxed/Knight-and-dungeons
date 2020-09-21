@@ -1,0 +1,24 @@
+levels:
+  - !empty_map
+    chest: 1
+  - !special_map
+    rat: 15
+    chest: 1
+  - !special_map
+    rat: 10
+    knight: 5
+    naga: 2
+    heal: 2
+    bless: 3
+    remove: 2
+    chest: 2
+  - !random_map {"remove": 2}
+  - !special_map
+    rat: 10
+    knight: 10
+    naga: 5
+    dragon: 2
+    bless: 2
+    heal: 4
+    remove: 2
+    chest: 3
